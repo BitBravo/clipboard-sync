@@ -1,5 +1,5 @@
 # clipboard-share
-
+ 
 ## Description
 
 It's a small client-server script which allows to synchronise clipboard
