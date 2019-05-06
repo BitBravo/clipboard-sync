@@ -21,7 +21,7 @@ It's a small client-server script which allows to synchronise clipboard
 
 3. Install clipboard-share with [npm](https://npmjs.org/package/clipboard-share):
 
-    npm install -g clipboard-share
+    npm install -g clipboard-sync
 
 ## Usage
 

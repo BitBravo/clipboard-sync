@@ -1,6 +1,6 @@
 {
   "name": "clipboard-sync",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Share clipboard between multiple computers",
   "main": "index.js",
   "bin": {
