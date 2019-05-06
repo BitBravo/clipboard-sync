@@ -15,7 +15,11 @@ It's a small client-server script which allows to synchronise clipboard
     * on Windows use [chocolatey](https://chocolatey.org/) `choco install nodejs`
     * on Debian based linux use `apt-get install nodejs npm`
     
-2. Install clipboard-share with [npm](https://npmjs.org/package/clipboard-share):
+2. Install forever package:
+
+    npm install forever -g
+
+3. Install clipboard-share with [npm](https://npmjs.org/package/clipboard-share):
 
     npm install -g clipboard-share
 
