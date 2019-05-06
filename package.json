@@ -1,0 +1,52 @@
+{
+  "name": "clipboard-sync",
+  "version": "0.0.1",
+  "description": "Share clipboard between multiple computers",
+  "main": "index.js",
+  "bin": {
+    "clipboard-sync": "./index.js"
+  },
+  "scripts": {
+    "start": "forever start index.js",
+    "test": "node_modules/.bin/mocha ./test"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "lib/*"
+  ],
+  "keywords": [
+    "clipboard",
+    "share",
+    "virtual",
+    "virtualbox",
+    "windows",
+    "linux",
+    "osx",
+    "mac",
+    "copy",
+    "paste"
+  ],
+  "author": "Alexey Prokhorov <alexey.p@l96.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "copy-paste": "^1.3.0",
+    "minimist": "^1.2.0",
+    "socket.io": "^1.5.1",
+    "socket.io-client": "^1.5.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.2",
+    "mocha": "^3.0.0",
+    "rewire": "^2.5.2"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megahertz/clipboard-share.git"
+  }
+}
