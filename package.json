@@ -1,6 +1,6 @@
 {
   "name": "clipboard-sync",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Share clipboard between multiple computers",
   "main": "index.js",
   "bin": {
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/megahertz/clipboard-share.git"
+    "url": "git+https://github.com/javascript603/clipboard-sync.git"
   }
 }

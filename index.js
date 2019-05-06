@@ -52,7 +52,7 @@ function parseArgs(args) {
 }
 
 function help() {
-  console.log(`Usage clipboard-share [-c] [host:port|host] [-i milliseconds]
+  console.log(`Usage clipboard-sync [-c] [host:port|host] [-i milliseconds]
 If -c is specified, then connect to a server, otherwise start a server
   -c Connect to a server [host:port|host], default 10.0.2.2:1077
   -i Clipboard update interval, milliseconds

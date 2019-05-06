@@ -1,4 +1,4 @@
-# clipboard-share
+# clipboard-sync
  
 ## Description
 
@@ -19,7 +19,7 @@ It's a small client-server script which allows to synchronise clipboard
 
     npm install forever -g
 
-3. Install clipboard-share with [npm](https://npmjs.org/package/clipboard-share):
+3. Install clipboard-sync with [npm](https://npmjs.org/package/clipboard-sync):
 
     npm install -g clipboard-sync
 
@@ -27,21 +27,21 @@ It's a small client-server script which allows to synchronise clipboard
 
 Starting a server using one of the following ways:
 
-    clipboard-share                  # Using default settings, bind to 0.0.0.0:1077
-    clipboard-share 192.168.1.2      # Using default port 1077
-    clipboard-share 192.168.1.2:1077 # Full syntax
+    clipboard-sync                  # Using default settings, bind to 0.0.0.0:1077
+    clipboard-sync 192.168.1.2      # Using default port 1077
+    clipboard-sync 192.168.1.2:1077 # Full syntax
 
 
 Starting a client using one of the following ways:
 
-    clipboard-share -c                  # Using default settings, connect to 10.0.2.2:1077
-    clipboard-share -c 192.168.1.2      # Using default port 1077
-    clipboard-share -c 192.168.1.2:1077 # Full syntax
+    clipboard-sync -c                  # Using default settings, connect to 10.0.2.2:1077
+    clipboard-sync -c 192.168.1.2      # Using default port 1077
+    clipboard-sync -c 192.168.1.2:1077 # Full syntax
     
 Setting refresh interval in milliseconds (how often script will spy on
 clipboard changes), can be set in both client and server mode:
 
-    clipboard-share -c -i 100
+    clipboard-sync -c -i 100
 
 ## License
 
